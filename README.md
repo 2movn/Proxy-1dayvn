@@ -102,3 +102,8 @@ console.log('proxy:', proxy)
 
 ## Proxy Datacenter VN Fresh List
 (Đang cập nhật)
+
+
+# Liên hệ:
+- Facebook: https://www.facebook.com/2movn
+- TeleGram: https://t.me/mmovnofflical
