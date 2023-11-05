@@ -99,6 +99,11 @@ try {
 }
 console.log('proxy:', proxy)
 ```
+### Tool hỗ trợ forward và tự động xoay
+Công cụ hỗ trợ get, xoay proxy liên tục theo thời gian và forward proxy về dạng local.
+
+- Link tải: [Tool Support](https://github.com/2movn/Proxy-1dayvn/releases/tag/1.0.0)
+
 
 ## Proxy Datacenter VN Fresh List
 (Đang cập nhật)
