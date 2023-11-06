@@ -1,8 +1,9 @@
 # API Proxy 1dayvn
-Hướng dẫn sử dụng API lấy proxy của 1dayvn.com
-Cần nhận API từ Admin hoặc mua từ website: https://proxy.1dayvn.com.
+Hướng dẫn sử dụng API lấy proxy của 1dayvn.com.
 
-## Proxy xoay 0 giây
+Cần nhận API từ Admin hoặc mua từ website: https://proxy.1dayvn.com
+
+## 1 - Proxy xoay 0 giây
 - Đây là loại proxy có thể get liên tục. Mỗi lần Get sẽ trả về proxy khác nhau.
 - Proxy sau khi get Live từ 30 phút ~8h.
 - Get proxy không giới hạn số lần
@@ -99,15 +100,38 @@ try {
 }
 console.log('proxy:', proxy)
 ```
+
 ### Tool hỗ trợ forward và tự động xoay
 Công cụ hỗ trợ get, xoay proxy liên tục theo thời gian và forward proxy về dạng local.
 
 - Link tải: [Tool Support](https://github.com/2movn/Proxy-1dayvn/releases/tag/1.0.0) (Mật khẩu nếu có: 599999)
 - Video Hướng dẫn: [View Youtube](https://youtu.be/htko4rmIifM)
 
-## Proxy Datacenter VN Fresh List
+## 2 - Proxy Datacenter VN Fresh List
+### Cách sử dụng
 (Đang cập nhật)
 
+### Giới thiệu:
+(Đang cập nhật)
+
+### 1. Tool hỗ trợ forward và tự động xoay
+Công cụ hỗ trợ get Fresh list từ server về. Đồng thời giúp các bạn check live proxy.
+#### Chức năng:
+1. Hỗ trợ lấy Proxy list về nhanh chóng.
+2. Hỗ trợ kiểm tra kết nối proxy.
+3. Hỗ trợ lọc trùng và xuât tệp `.txt` và `exel`.
+
+Công cụ có thống kê rõ ràng cho từng proxy vì vậy đây là một công cụ hữu ích cần thích cho bạn.
+
+
+### 2. Công cụ online:
+- Công cụ Hỗ trợ chuyển định dạng `ip:port:user:pass` thành `user:pass@ip:port`: [Bắt đầu](https://api.2movn.com/cover-type.html)
+- Công cụ Hỗ trợ chuyển định dạng `host:port:user:pass` thành `ip:port:user:pass`: [Bắt đầu](https://api.2movn.com/cover-ip.html)
+
+  
+#### Tải về:
+- Link tải: [Tool Support](https://drive.google.com/file/d/1uTtXFsyzD4gu06RdgHiAsaYW8L2SQsTS/view?usp=sharing) (Mật khẩu nếu có: 599999)
+- Video Hướng dẫn: [View Youtube](https://youtu.be/qwV9MiZQIxM)
 
 # Liên hệ:
 - Facebook: https://www.facebook.com/2movn
