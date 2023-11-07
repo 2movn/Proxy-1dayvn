@@ -130,7 +130,7 @@ Công cụ có thống kê rõ ràng cho từng proxy vì vậy đây là một 
 
   
 #### Tải về:
-- Link tải: [Tool Support](https://drive.google.com/file/d/1uTtXFsyzD4gu06RdgHiAsaYW8L2SQsTS/view?usp=sharing) (Mật khẩu nếu có: 599999)
+- Link tải: [Tool Support](https://drive.google.com/file/d/1Vr_KDPc2vec23ypm_u9WcaF4A0HT5zYe/view?usp=sharing) (Mật khẩu nếu có: 599999)
 - Video Hướng dẫn: [View Youtube](https://youtu.be/qwV9MiZQIxM)
 
 # Liên hệ:
