@@ -9,7 +9,7 @@ Cần nhận API từ Admin hoặc mua từ website: https://proxy.1dayvn.com
 - Get proxy không giới hạn số lần
 - Proxy không giới hạn băng thông, dung lượng
 
-### Cách thức lấy proxy qua API
+### Cách thức lấy proxy qua API 
 1. Phương thức:
 `GET`
 
@@ -39,17 +39,17 @@ Cần nhận API từ Admin hoặc mua từ website: https://proxy.1dayvn.com
 
 ### Ví dụ get proxy:
 
-### Curl Example
+#### Curl Example
 ```javascript
 curl -X GET -H "Content-Type: application/json" https://proxy.1dayvn.com/api/premium/single-proxy?key=[API_KEY]
 ```
 
-### Python Example
+#### Python Example
 ```python
 New_proxy = None
 API = '' #API tại đây
 headers_get = {
-    'User-Agent': 'Mozilla/5.0 (1proxy-AppDesktop) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (1dayvn-AppDesktop) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
     "Content-Type": "application/json",
     "Accept": "application/json",
 }
@@ -76,10 +76,10 @@ except:
 print(New_proxy)
 ```
 
-### Nodejs - Axios Example
+#### Nodejs - Axios Example
 ```javascript
 const headers = {
-  'User-Agent': 'Mozilla/5.0 (App Gologin Auto) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
+  'User-Agent': 'Mozilla/5.0 (1dayvn-AppDesktop) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
 };
 let API = '' // API tại đây
 let proxy = ''
@@ -92,7 +92,7 @@ try {
       raw_proxy = token_active.data;
       proxy =  `${raw_proxy.ip}:${raw_proxy.port}`
       if (raw_proxy.user){
-        proxy = `${raw_proxy.ip}:${raw_proxy.ip}:${raw_proxy.ip}:${raw_proxy.ip}:`
+        proxy = `${raw_proxy.ip}:${raw_proxy.port}:${raw_proxy.username}:${raw_proxy.password}:`
       }
     }
 } catch (error) {
@@ -107,31 +107,42 @@ Công cụ hỗ trợ get, xoay proxy liên tục theo thời gian và forward p
 - Link tải: [Tool Support](https://github.com/2movn/Proxy-1dayvn/releases/tag/1.0.0) (Mật khẩu nếu có: 599999)
 - Video Hướng dẫn: [View Youtube](https://youtu.be/htko4rmIifM)
 
-## 2 - Proxy Datacenter VN Fresh List
-### Cách sử dụng
-(Đang cập nhật)
+### Công cụ online:
+- Công cụ Hỗ trợ lấy proxy: [Bắt đầu](https://1dayvn.com/help/get-proxy.html)
+- API lấy proxy không `user:pass`: 
+```
+https://1dayvn.com/help/get-non.php?key=[API]
+```
 
+## 2 - Proxy Dân cư VN Fresh List
 ### Giới thiệu:
-(Đang cập nhật)
+Dạng Fresh list là dạng danh sách và làm mới liên tục. Có nghĩa chúng tôi sẽ cấp cho bạn 1 danh sách proxy theo số lượng của gói. Nhưng proxy này sẽ được kiểm tra và làm mới (Thay thế) liên tục.
+Thời gian làm mới 2 giờ/lần. Danh sách của bạn sẽ luôn được cập nhật đầy đủ số lượng.
 
-### 1. Tool hỗ trợ forward và tự động xoay
+(***Ghi chú***: Proxy này chỉ live từ 30 phút đến 8h)
+### Cách sử dụng
+Các bạn có thể sử dụng API được cung cấp để lấy danh sách với link API hoặc công cụ hỗ trợ kèm theo dưới đây.
+
+Proxy có 2 định dạng `ip:port` và `ip:port:user:pass`
+
+
+### 1. Tool hỗ trợ Lấy list Proxy
 Công cụ hỗ trợ get Fresh list từ server về. Đồng thời giúp các bạn check live proxy.
 #### Chức năng:
 1. Hỗ trợ lấy Proxy list về nhanh chóng.
 2. Hỗ trợ kiểm tra kết nối proxy.
 3. Hỗ trợ lọc trùng và xuât tệp `.txt` và `exel`.
 
-Công cụ có thống kê rõ ràng cho từng proxy vì vậy đây là một công cụ hữu ích cần thích cho bạn.
+Công cụ có thống kê rõ ràng cho từng proxy vì vậy đây là một công cụ hữu ích cần thiết cho bạn.
 
-
-### 2. Công cụ online:
-- Công cụ Hỗ trợ chuyển định dạng `ip:port:user:pass` thành `user:pass@ip:port`: [Bắt đầu](https://api.2movn.com/cover-type.html)
-- Công cụ Hỗ trợ chuyển định dạng `host:port:user:pass` thành `ip:port:user:pass`: [Bắt đầu](https://api.2movn.com/cover-ip.html)
-
-  
 #### Tải về:
 - Link tải: [Tool Support](https://drive.google.com/file/d/1Vr_KDPc2vec23ypm_u9WcaF4A0HT5zYe/view?usp=sharing) (Mật khẩu nếu có: 599999)
 - Video Hướng dẫn: [View Youtube](https://youtu.be/qwV9MiZQIxM)
+
+
+## 3. Công cụ online:
+- Công cụ Hỗ trợ chuyển định dạng `ip:port:user:pass` thành `user:pass@ip:port`: [Bắt đầu](https://1dayvn.com/help/cover-type.html)
+- Công cụ Hỗ trợ chuyển định dạng `host:port:user:pass` thành `ip:port:user:pass`: [Bắt đầu](https://1dayvn.com/help/cover-ip.html)
 
 # Liên hệ:
 - Facebook: https://www.facebook.com/2movn
