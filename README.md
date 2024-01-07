@@ -104,7 +104,7 @@ console.log('proxy:', proxy)
 ### Tool hỗ trợ forward và tự động xoay
 Công cụ hỗ trợ get, xoay proxy liên tục theo thời gian và forward proxy về dạng local.
 
-- Link tải: [Tool Support](https://github.com/2movn/Proxy-1dayvn/releases/tag/1.0.0) (Mật khẩu nếu có: 599999)
+- Link tải: [Tool Support](https://github.com/2movn/Proxy-1dayvn/releases/tag/1.0.2) (Mật khẩu nếu có: 599999)
 - Video Hướng dẫn: [View Youtube](https://youtu.be/htko4rmIifM)
 
 ### Công cụ online:
