@@ -145,5 +145,4 @@ Công cụ có thống kê rõ ràng cho từng proxy vì vậy đây là một 
 - Công cụ Hỗ trợ chuyển định dạng `host:port:user:pass` thành `ip:port:user:pass`: [Bắt đầu](https://1dayvn.com/help/cover-ip.html)
 
 # Liên hệ:
-- Facebook: https://www.facebook.com/2movn
-- TeleGram: https://t.me/mmovnofflical
+- TeleGram: [https://t.me/Onedayvn](https://t.me/Onedayvn)
